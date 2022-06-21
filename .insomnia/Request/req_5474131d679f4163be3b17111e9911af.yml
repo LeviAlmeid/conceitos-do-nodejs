@@ -1,0 +1,30 @@
+_id: req_5474131d679f4163be3b17111e9911af
+type: Request
+parentId: wrk_04352f2b20294e45a6502bf5f11fc524
+modified: 1655839529326
+created: 1655838153101
+url: "{{ _.baseURL }}/todos/1299395b-8f36-4e1b-8954-35f959105af5/done"
+name: todo DONE
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ca605aa298a4414c81294083b447361f
+  - id: pair_ddc8f67c079847f5a4c3a0e7e7314db7
+    name: username
+    value: LeviS
+    description: ""
+authentication: {}
+metaSortKey: -1655838153101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

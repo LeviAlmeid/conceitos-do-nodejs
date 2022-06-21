@@ -1,0 +1,34 @@
+_id: req_20006b990b19421da7f07e0ad5f16926
+type: Request
+parentId: wrk_04352f2b20294e45a6502bf5f11fc524
+modified: 1655839507340
+created: 1655835752464
+url: "{{ _.baseURL }}/todos"
+name: Create TODO
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "tarefa 5",
+    	"deadline": "2022-06-25"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9796c5b0bb6d49a2a76970e97874c683
+  - id: pair_9f4dc9e95cb5461f91feed14a5179da3
+    name: username
+    value: LeviS
+    description: ""
+authentication: {}
+metaSortKey: -1655835752464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_d0c76dbf9b744f1d921c3faf3ae7669b
+type: Request
+parentId: wrk_04352f2b20294e45a6502bf5f11fc524
+modified: 1655839516240
+created: 1655836883664
+url: "{{ _.baseURL }}/todos/1299395b-8f36-4e1b-8954-35f959105af5"
+name: Alterar todo
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "comer sua mae",
+    	"deadline": "2022-06-30"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4636b969445a42ee8231c474f0c0b9f9
+  - id: pair_c83eef0901cf4695ac320c53c82e9223
+    name: username
+    value: LeviS
+    description: ""
+authentication: {}
+metaSortKey: -1655836883664
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

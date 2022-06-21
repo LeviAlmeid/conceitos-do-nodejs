@@ -1,0 +1,30 @@
+_id: req_34cc82adab92490abc9dbe339b948f4a
+type: Request
+parentId: wrk_04352f2b20294e45a6502bf5f11fc524
+modified: 1655842190947
+created: 1655750584045
+url: "{{ _.baseURL }}/users"
+name: CreateUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Levi Almeida",
+    	"username": "LeviS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_75498ffab72743df99c657149f4b192b
+authentication: {}
+metaSortKey: -1655750584045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
